@@ -1,0 +1,30 @@
+{
+  "name": "adsb.one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ADSB-One/backend.git"
+  },
+  "author": "Huusky",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ADSB-One/backend/issues"
+  },
+  "homepage": "https://github.com/ADSB-One/backend#readme",
+  "devDependencies": {
+    "@tsconfig/node18-strictest": "^1.0.0",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.13.0",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
